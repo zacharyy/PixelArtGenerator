@@ -6,10 +6,10 @@ using namespace std;
 using namespace cv;
 
 class PixelArtGenerator {
+	public:
 	PixelArtGenerator(string s);
 	~PixelArtGenerator();
-
-	void GenerateArt();
+	void GenerateArt(int);
 
 	Mat img;
 };

@@ -12,5 +12,8 @@ int main(int argc, char *argv[])
 	else 
 		return 1;
 
-	cout << s << endl;
+	PixelArtGenerator p(s);
+	p.GenerateArt(8);
+
+	return 0;
 }
